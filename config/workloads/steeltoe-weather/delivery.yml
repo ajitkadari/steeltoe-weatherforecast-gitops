@@ -36,7 +36,7 @@ spec:
         tanzu.app.live.view.application.name: steeltoe-weather
     spec:
       containers:
-      - image: ajtanzuregistry.azurecr.io/workloads/steeltoe-weather-workloads@sha256:3eaeebe2f4d31849b11742cfe77963140c87b5d7928fbbf03741404f6a80d0ca
+      - image: ajtanzuregistry.azurecr.io/workloads/steeltoe-weather-workloads@sha256:57e6e58c63a7ca1218f216f3e8396de085f366bc9d53f999ae72d5eac7b887d9
         name: workload
         resources: {}
         securityContext:
